@@ -17,7 +17,7 @@ def telegram_bot_sendtext(bot_message):
 #Notifier
 def telegram_bot_sendques (bot_message):
     bot_token = '8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM'
-    bot_chatID = '1296818887'
+    bot_chatID = '2064336903'
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + \
                 '&parse_mode=MarkdownV2&text=' + str(bot_message).replace('.', '\\.')  # Escape the dot character
     response = requests.get(send_text)
@@ -25,8 +25,8 @@ def telegram_bot_sendques (bot_message):
 
 #variables
 sub = "Ithika ID"
-username = "itika.singh@triviumservice.com"
-password = "Cik-1604-24@021"
+username = "abhaydy1426@gmail.com"
+password = "@Bhay251112"
 login_text= f"{sub} Logged in"
 limit_texts = f"Limit hit {sub}"
 flag = True
@@ -63,6 +63,7 @@ while flag:
         telegram_bot_sendtext(f"Password {sub}")
 
 telegram_bot_sendtext(login_text)
+telegram_bot_sendques(login_text)
 
 
 # Navigate to the authoring page
