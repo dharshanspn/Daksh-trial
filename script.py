@@ -24,7 +24,7 @@ def telegram_bot_sendques (bot_message):
     return response.json()
 
 #variables
-sub = "Ithika ID"
+sub = "Account"
 username = "abhaydy1426@gmail.com"
 password = "@Bhay251112"
 login_text= f"{sub} Logged in"
