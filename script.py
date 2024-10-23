@@ -11,7 +11,7 @@ username = "aarifsaifi003@outlook.com"
 password = "Chegg@#123"
 user_bot_chatID = '5101684408'
 account_name = "the"
-accept_option = False
+accept_option = True
 start_time = 0                   #Stating time. Default 0. In 24 hour format
 end_time = 25                    #Stating time. Default 25. In 24 hour format
 
